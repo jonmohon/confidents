@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import ScrollReveal from "./ScrollReveal";
 
 const faqs = [
   {
@@ -13,7 +14,7 @@ const faqs = [
   },
   {
     q: "Will my insurance cover the repair?",
-    a: "Yes! PDR is covered by all major insurance providers. We handle the entire claims process for you — from filing the claim to getting approval. For hail damage, most customers pay nothing out of pocket. We work with State Farm, GEICO, Allstate, Progressive, USAA, and all other carriers.",
+    a: "Yes! PDR is covered by all major insurance providers. We handle the entire claims process for you — from filing the claim to getting approval. For hail damage, most customers pay nothing out of pocket.",
   },
   {
     q: "How long does a repair take?",
@@ -21,11 +22,11 @@ const faqs = [
   },
   {
     q: "Do you come to me?",
-    a: "Absolutely! We offer mobile PDR service throughout the Denver Metro area and Colorado Springs. We'll come to your home, office, or wherever your vehicle is parked. No need to drop off your car at a shop and arrange alternative transportation.",
+    a: "Absolutely! We offer mobile PDR service throughout the Denver Metro area and Colorado Springs. We'll come to your home, office, or wherever your vehicle is parked.",
   },
   {
     q: "Will the repair show up on CARFAX?",
-    a: "No. Since PDR doesn't involve repainting or body work, it is not reported to CARFAX. This is a major advantage for protecting your vehicle's resale value compared to traditional body shop repairs.",
+    a: "No. Since PDR doesn't involve repainting or body work, it is not reported to CARFAX. This is a major advantage for protecting your vehicle's resale value.",
   },
   {
     q: "What if my paint is damaged?",
@@ -41,51 +42,56 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="py-20 bg-brand-light">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-black text-brand-dark mb-4">
-            Frequently Asked{" "}
-            <span className="text-brand-orange">Questions</span>
-          </h2>
-          <p className="text-gray-500">
-            Everything you need to know about paintless dent removal.
-          </p>
-        </div>
+    <section id="faq" className="relative py-24 bg-brand-dark">
+      <div className="grain absolute inset-0" />
+      <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ScrollReveal>
+          <div className="text-center mb-16">
+            <p className="text-sm font-semibold uppercase tracking-widest text-brand-orange mb-3">
+              FAQ
+            </p>
+            <h2 className="text-3xl sm:text-5xl font-black text-white mb-4 tracking-tight">
+              Common Questions
+            </h2>
+            <p className="text-gray-500">
+              Everything you need to know about paintless dent removal.
+            </p>
+          </div>
+        </ScrollReveal>
 
-        <div className="space-y-4">
+        <div className="space-y-3">
           {faqs.map((faq, i) => (
-            <div
-              key={i}
-              className="bg-white rounded-xl border border-gray-100 overflow-hidden"
-            >
-              <button
-                onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors"
-              >
-                <span className="font-bold text-brand-dark pr-4">{faq.q}</span>
-                <svg
-                  className={`w-5 h-5 flex-shrink-0 text-brand-orange transition-transform ${
-                    openIndex === i ? "rotate-180" : ""
-                  }`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+            <ScrollReveal key={i} delay={i * 50}>
+              <div className="rounded-2xl border border-white/10 bg-white/[0.02] overflow-hidden hover:border-white/20 transition-all">
+                <button
+                  onClick={() => setOpenIndex(openIndex === i ? null : i)}
+                  className="w-full flex items-center justify-between p-6 text-left hover:bg-white/[0.02] transition-colors"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-              {openIndex === i && (
-                <div className="px-6 pb-6 text-gray-500 leading-relaxed border-t border-gray-100 pt-4">
-                  {faq.a}
+                  <span className="font-bold text-white pr-4 text-sm sm:text-base">
+                    {faq.q}
+                  </span>
+                  <svg
+                    className={`w-5 h-5 flex-shrink-0 text-brand-orange transition-transform duration-300 ${
+                      openIndex === i ? "rotate-180" : ""
+                    }`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${
+                    openIndex === i ? "max-h-96" : "max-h-0"
+                  }`}
+                >
+                  <div className="px-6 pb-6 text-gray-400 leading-relaxed text-sm border-t border-white/5 pt-4">
+                    {faq.a}
+                  </div>
                 </div>
-              )}
-            </div>
+              </div>
+            </ScrollReveal>
           ))}
         </div>
       </div>
