@@ -1,4 +1,23 @@
 import Image from "next/image";
+import Link from "next/link";
+
+const services = [
+  { label: "Door Ding Repair", href: "/services" },
+  { label: "Hail Damage Repair", href: "/services" },
+  { label: "Large Dent Repair", href: "/services" },
+  { label: "Body Crease Repair", href: "/services" },
+  { label: "How It Works", href: "/process" },
+];
+
+const areas = [
+  { label: "Denver", href: "/areas-we-serve/denver" },
+  { label: "Castle Rock", href: "/areas-we-serve/castle-rock" },
+  { label: "Littleton", href: "/areas-we-serve/littleton" },
+  { label: "Parker", href: "/areas-we-serve/parker" },
+  { label: "Aurora", href: "/areas-we-serve/aurora" },
+  { label: "Lone Tree", href: "/areas-we-serve/lone-tree" },
+  { label: "Colorado Springs", href: "/areas-we-serve/colorado-springs" },
+];
 
 export default function Footer() {
   return (
@@ -19,9 +38,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-4 text-sm">Services</h4>
             <ul className="space-y-2.5 text-gray-500 text-sm">
-              {["Door Ding Repair", "Hail Damage Repair", "Large Dent Repair", "Body Crease Repair", "Fleet Services"].map((s) => (
-                <li key={s}>
-                  <a href="#services" className="hover:text-brand-orange transition-colors">{s}</a>
+              {services.map((s) => (
+                <li key={s.label}>
+                  <Link href={s.href} className="hover:text-brand-orange transition-colors">
+                    {s.label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -29,10 +50,18 @@ export default function Footer() {
 
           {/* Service Areas */}
           <div>
-            <h4 className="text-white font-bold mb-4 text-sm">Service Areas</h4>
+            <h4 className="text-white font-bold mb-4 text-sm">
+              <Link href="/areas-we-serve" className="hover:text-brand-orange transition-colors">
+                Service Areas
+              </Link>
+            </h4>
             <ul className="space-y-2.5 text-gray-500 text-sm">
-              {["Denver", "Castle Rock", "Littleton", "Parker", "Aurora", "Lone Tree", "Colorado Springs", "SW Denver Metro"].map((a) => (
-                <li key={a}>{a}</li>
+              {areas.map((a) => (
+                <li key={a.label}>
+                  <Link href={a.href} className="hover:text-brand-orange transition-colors">
+                    {a.label}
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>
@@ -69,8 +98,20 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Quick links row */}
+        <div className="mt-10 pt-6 border-t border-white/5 flex flex-wrap justify-center gap-x-6 gap-y-2 text-gray-600 text-sm">
+          <Link href="/services" className="hover:text-brand-orange transition-colors">Services</Link>
+          <Link href="/process" className="hover:text-brand-orange transition-colors">How It Works</Link>
+          <Link href="/results" className="hover:text-brand-orange transition-colors">Results</Link>
+          <Link href="/reviews" className="hover:text-brand-orange transition-colors">Reviews</Link>
+          <Link href="/comparison" className="hover:text-brand-orange transition-colors">PDR vs Body Shop</Link>
+          <Link href="/faq" className="hover:text-brand-orange transition-colors">FAQ</Link>
+          <Link href="/blog" className="hover:text-brand-orange transition-colors">Blog</Link>
+          <Link href="/contact" className="hover:text-brand-orange transition-colors">Contact</Link>
+        </div>
+
         {/* Glowing divider */}
-        <div className="glow-divider mt-12 mb-8" />
+        <div className="glow-divider mt-8 mb-8" />
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-700 text-sm">
