@@ -204,8 +204,8 @@ export function HailDamageFAQ() {
           <ScrollReveal>
             <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
               <Image
-                src="/hail-storm.jpg"
-                alt="Hail storm damage on a vehicle"
+                src="/pdr-suv-multi-led.webp"
+                alt="SUV surrounded by LED reflection boards for hail damage assessment"
                 fill
                 className="object-cover"
               />
@@ -262,8 +262,8 @@ export function InsuranceFAQ() {
           <ScrollReveal className="order-1 lg:order-2">
             <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
               <Image
-                src="/car-luxury.jpg"
-                alt="Luxury vehicle with flawless paint finish"
+                src="/pdr-luxury-sedan.webp"
+                alt="Pristine luxury sedan after professional PDR repair"
                 fill
                 className="object-cover"
               />
@@ -340,8 +340,8 @@ export function StillHaveQuestions() {
           <ScrollReveal delay={100}>
             <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
               <Image
-                src="/car-closeup.jpg"
-                alt="Close-up of a flawless vehicle panel after PDR"
+                src="/pdr-bmw-led-assess.webp"
+                alt="PDR technician assessing vehicle with LED reflection board"
                 fill
                 className="object-cover"
               />

@@ -188,8 +188,8 @@ export default function ReviewsPage() {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/hail-storm.jpg"
-                  alt="Hail damage repair by Confidents PDR"
+                  src="/pdr-hail-led-inspect.webp"
+                  alt="PDR technician inspecting hail damage with LED reflection board"
                   fill
                   className="object-cover"
                 />

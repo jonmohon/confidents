@@ -9,19 +9,19 @@ const servicePreview = [
   {
     title: "Door Ding Repair",
     desc: "Shopping carts, car doors, and minor impacts leave unsightly dings. We remove them without a trace.",
-    image: "/car-closeup.jpg",
+    image: "/pdr-light-assessment.webp",
     href: "/services",
   },
   {
     title: "Hail Damage Repair",
     desc: "Colorado hail storms can leave hundreds of dents. We restore your vehicle to pre-storm condition.",
-    image: "/hail-storm.jpg",
+    image: "/pdr-tap-down.webp",
     href: "/services",
   },
   {
     title: "Large Dent Repair",
     desc: "Even larger dents from collisions can often be repaired with PDR — saving you thousands.",
-    image: "/car-dark.jpg",
+    image: "/pdr-slide-hammer.webp",
     href: "/services",
   },
 ];
@@ -43,7 +43,7 @@ export default function Home() {
       {/* Image Gallery Strip */}
       <section className="relative bg-brand-dark py-4">
         <div className="flex gap-4 overflow-hidden">
-          {["/car-red.jpg", "/car-corvette.jpg", "/car-luxury.jpg", "/car-dark.jpg", "/car-closeup.jpg", "/car-road.jpg"].map((src, i) => (
+          {["/pdr-hood-repair.webp", "/pdr-detail-work.webp", "/pdr-light-board.webp", "/pdr-finishing.webp", "/pdr-mobile-service.webp", "/pdr-inspection.webp"].map((src, i) => (
             <div key={i} className="relative flex-shrink-0 w-72 h-48 rounded-xl overflow-hidden">
               <Image
                 src={src}
@@ -178,8 +178,8 @@ export default function Home() {
                 <div className="absolute -inset-4 bg-brand-orange/5 blur-3xl rounded-3xl" />
                 <div className="relative rounded-2xl overflow-hidden border border-white/10">
                   <Image
-                    src="/car-corvette.jpg"
-                    alt="Expert paintless dent removal"
+                    src="/pdr-light-board.webp"
+                    alt="PDR technician using light board for expert dent assessment"
                     width={700}
                     height={500}
                     className="w-full h-auto"
@@ -303,18 +303,24 @@ export default function Home() {
             <ScrollReveal>
               <div className="relative">
                 <div className="absolute -inset-4 bg-brand-orange/5 blur-3xl rounded-3xl" />
-                <div className="relative grid grid-cols-2 gap-4">
-                  <div className="rounded-2xl overflow-hidden border border-white/10 aspect-[4/5]">
-                    <Image src="/car-red.jpg" alt="Red sports car" fill className="object-cover" />
-                  </div>
-                  <div className="space-y-4">
-                    <div className="rounded-2xl overflow-hidden border border-white/10 aspect-square relative">
-                      <Image src="/car-luxury.jpg" alt="Luxury vehicle" fill className="object-cover" />
-                    </div>
-                    <div className="rounded-2xl overflow-hidden border border-white/10 aspect-square relative">
-                      <Image src="/car-closeup.jpg" alt="Car detail" fill className="object-cover" />
-                    </div>
-                  </div>
+                <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
+                  <Image
+                    src="/pdr-finishing.webp"
+                    alt="PDR technician performing final quality inspection on vehicle"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                </div>
+                {/* Floating accent image */}
+                <div className="absolute -bottom-6 -right-6 w-48 h-48 sm:w-56 sm:h-56 rounded-2xl overflow-hidden border-4 border-brand-dark shadow-2xl hidden md:block">
+                  <Image
+                    src="/pdr-detail-work.webp"
+                    alt="Close-up PDR detail work"
+                    fill
+                    className="object-cover object-top"
+                  />
                 </div>
               </div>
             </ScrollReveal>

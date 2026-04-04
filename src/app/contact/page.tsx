@@ -235,8 +235,8 @@ export default function ContactPage() {
             <ScrollReveal delay={150}>
               <div className="relative rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/car-luxury.jpg"
-                  alt="Luxury vehicle with flawless paintless dent removal finish"
+                  src="/pdr-mobile-service.webp"
+                  alt="PDR technician performing mobile dent repair service on-site"
                   width={800}
                   height={600}
                   className="w-full h-auto object-cover"
@@ -383,8 +383,8 @@ export default function ContactPage() {
             <ScrollReveal>
               <div className="relative rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/hail-storm.jpg"
-                  alt="Hail storm damage on vehicle requiring paintless dent removal"
+                  src="/pdr-hailstorm-scene.webp"
+                  alt="Colorado hailstorm scene showing urgency of prompt dent repair"
                   width={800}
                   height={600}
                   className="w-full h-auto object-cover"

@@ -74,8 +74,8 @@ export default function ProcessPage() {
             </div>
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
               <Image
-                src="/car-closeup.jpg"
-                alt="Close-up inspection of vehicle panel for dent assessment"
+                src="/pdr-bmw-led-assess.webp"
+                alt="PDR technician assessing vehicle panel with LED reflection board"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover"
@@ -87,8 +87,8 @@ export default function ProcessPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div className="order-2 md:order-1 relative rounded-2xl overflow-hidden border border-white/10">
               <Image
-                src="/car-dark.jpg"
-                alt="Technician accessing behind panel for PDR repair"
+                src="/pdr-detail-work.webp"
+                alt="PDR technician performing detailed repair work using reflection board"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover"
@@ -163,8 +163,8 @@ export default function ProcessPage() {
             </div>
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
               <Image
-                src="/car-corvette.jpg"
-                alt="Completed paintless dent removal with flawless finish"
+                src="/pdr-hood-repair.webp"
+                alt="PDR technician performing precision hood repair with specialized tools"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover"
@@ -350,8 +350,8 @@ export default function ProcessPage() {
             <div className="space-y-6 pt-8 md:pt-24">
               <div className="relative rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/car-luxury.jpg"
-                  alt="Luxury vehicle prepared for paintless dent removal service"
+                  src="/pdr-luxury-sedan.webp"
+                  alt="Pristine luxury sedan in professional PDR shop"
                   width={600}
                   height={400}
                   className="w-full h-auto object-cover"
@@ -399,40 +399,40 @@ export default function ProcessPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
               <Image
-                src="/car-red.jpg"
-                alt="Detailed PDR work on a red vehicle panel"
+                src="/pdr-tools-flatlay.webp"
+                alt="Professional PDR tool collection laid out"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
               <Image
-                src="/car-road.jpg"
-                alt="Vehicle after complete paintless dent removal repair"
+                src="/pdr-under-hood.webp"
+                alt="Technician working under vehicle hood with PDR rod"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
               <Image
-                src="/car-closeup.jpg"
-                alt="Close-up of PDR tools working behind a vehicle panel"
+                src="/pdr-glue-pull.webp"
+                alt="Close-up of glue-pull PDR technique"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3] md:col-span-2">
               <Image
-                src="/hail-storm.jpg"
-                alt="Colorado hail storm that causes vehicle dent damage"
+                src="/pdr-roof-hail-aerial.webp"
+                alt="Aerial view of technician repairing hail damage on vehicle roof"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]">
               <Image
-                src="/car-dark.jpg"
-                alt="Technician performing PDR under controlled lighting"
+                src="/pdr-sedan-wand-check.webp"
+                alt="Technician inspecting dark sedan with LED wand"
                 fill
                 className="object-cover"
               />

@@ -34,7 +34,7 @@ const areaData: Record<
       "As Colorado's capital city, Denver is no stranger to hail storms, parking lot dings, and the everyday dents that come with city driving. Confidents PDR brings expert paintless dent removal directly to you — whether you're downtown, in the suburbs, or anywhere across the Denver metro area. Our certified technicians have repaired thousands of vehicles throughout Denver, from luxury sedans in Cherry Creek to trucks in the RiNo district.",
     additionalInfo:
       "Denver's mix of urban parking garages, tight street parking, and unpredictable weather makes dent damage an unavoidable reality for most vehicle owners. Whether your car was caught in a sudden afternoon hail storm rolling off the Front Range, or you came back from King Soopers to find a fresh door ding, Confidents PDR has the tools and expertise to make the damage disappear. We understand that Denver drivers depend on their vehicles, which is why we offer flexible scheduling — including early morning and weekend appointments — so you never have to miss work or rearrange your day to get a repair done. Our mobile service means we set up right in your driveway, parking garage, or office lot, completing most repairs in just a few hours while you go about your day.",
-    image: "/car-red.jpg",
+    image: "/pdr-suv-door-repair.webp",
     neighborhoods: [
       "Downtown Denver",
       "Cherry Creek",
@@ -92,7 +92,7 @@ const areaData: Record<
       "Castle Rock sits at the crossroads of the Denver metro area and Colorado Springs, and its residents deal with the same Colorado hail storms that affect the entire Front Range. Confidents PDR provides top-tier paintless dent removal to Castle Rock homeowners and businesses. Whether you're near the Outlets at Castle Rock, in the Meadows, or along the I-25 corridor, our mobile service comes to you.",
     additionalInfo:
       "Castle Rock has grown rapidly over the past decade, and with that growth comes more vehicles on the road, more parking lot encounters, and more exposure to Colorado's famously unpredictable weather. The town's elevation at over 6,200 feet puts it squarely in the path of summer thunderstorms that roll east off the mountains, often bringing damaging hail. Confidents PDR has been serving Castle Rock families since our founding, and we understand the unique needs of this community. We offer weekend appointments for busy families, and our mobile setup means we can work right in your driveway while you enjoy your Saturday morning at home. Many of our Castle Rock customers have become repeat clients, referring their friends and neighbors after seeing the quality of our work firsthand.",
-    image: "/car-road.jpg",
+    image: "/pdr-mobile-driveway.webp",
     neighborhoods: [
       "The Meadows",
       "Castle Oaks",
@@ -147,7 +147,7 @@ const areaData: Record<
       "Littleton and the surrounding Southwest Metro communities deserve dent repair that matches the area's high standards. Confidents PDR provides meticulous paintless dent removal throughout Littleton, Ken Caryl, Columbine, and Chatfield — preserving your vehicle's factory finish and value. Our technicians are experienced with all makes and models, from everyday commuters to luxury vehicles.",
     additionalInfo:
       "Littleton residents take pride in their vehicles, and the Southwest Metro area is home to some of the finest cars in the Denver region. Whether you drive a family SUV to shuttle kids between Littleton Public Schools or a luxury sedan for your commute to the tech center, your vehicle deserves expert care when dents happen. Confidents PDR brings that care directly to your doorstep. Our technicians have extensive experience working with the diverse range of vehicles found in Littleton — from aluminum-body Ford F-150s to German luxury brands. We use the latest PDR tools and techniques, and our obsessive attention to detail means we won't sign off on a repair until it meets our exacting standards. Littleton customers consistently tell us that our work is indistinguishable from a factory-fresh panel.",
-    image: "/car-luxury.jpg",
+    image: "/pdr-glue-pull.webp",
     neighborhoods: [
       "Historic Downtown Littleton",
       "Ken Caryl",
@@ -202,7 +202,7 @@ const areaData: Record<
       "Parker's suburban lifestyle means lots of parking lots, school zones, and outdoor exposure to Colorado's unpredictable weather. Confidents PDR brings professional paintless dent removal directly to Parker residents — whether you're in Stonegate, Stroh Ranch, or anywhere in the Parker area. We repair door dings, hail damage, and more without affecting your factory paint.",
     additionalInfo:
       "Parker is one of Douglas County's most family-oriented communities, and that means busy schedules, lots of after-school activities, and vehicles that see heavy daily use. From the packed parking lots at Parker Adventist Hospital to the shopping centers along Mainstreet, door dings and minor dents are a fact of life. And when summer storms roll through, Parker's open terrain and elevation can make hail damage particularly severe. Confidents PDR understands the Parker lifestyle. We schedule around school pickups, youth sports practices, and work hours. Our mobile service means your vehicle stays at home while we work — no need to arrange a rental car or coordinate drop-offs. Many of our Parker customers are pleasantly surprised by how quick and affordable PDR is compared to the body shop quotes they've received.",
-    image: "/car-dark.jpg",
+    image: "/pdr-tesla-fender.webp",
     neighborhoods: [
       "Stonegate",
       "Stroh Ranch",
@@ -257,7 +257,7 @@ const areaData: Record<
       "Aurora is one of Colorado's largest cities, and its residents need reliable, convenient dent repair they can trust. Confidents PDR serves all of Aurora with mobile paintless dent removal — from the Southlands shopping area to the Anschutz Medical Campus and everywhere in between. Our certified technicians deliver factory-quality results at a fraction of body shop prices.",
     additionalInfo:
       "Spanning over 150 square miles, Aurora is a sprawling city with diverse neighborhoods and a wide range of vehicle types. Whether you're a medical professional at the Anschutz campus who discovered a door ding in the parking garage, a family in Saddle Rock dealing with hail damage from last night's storm, or a small business owner in the Gateway area needing fleet vehicles repaired, Confidents PDR has you covered. We've built a strong reputation across Aurora by delivering consistently excellent results and providing the kind of personalized service that large chain body shops simply can't match. Our technicians take the time to assess every dent thoroughly, explain the repair process, and ensure you're completely satisfied before we pack up our tools.",
-    image: "/car-corvette.jpg",
+    image: "/pdr-sedan-wand-check.webp",
     neighborhoods: [
       "Southlands",
       "Saddle Rock",
@@ -313,7 +313,7 @@ const areaData: Record<
       "Lone Tree is home to some of Colorado's finest vehicles and most discerning car owners. Confidents PDR delivers the premium paintless dent removal service that Lone Tree residents expect. Whether your luxury SUV got dinged at Park Meadows or your sedan was caught in a hail storm, our expert technicians will restore it to flawless condition — all without touching your factory paint.",
     additionalInfo:
       "The South Denver tech corridor that runs through Lone Tree attracts professionals who appreciate quality in everything — including the care of their vehicles. Parking structures at Charles Schwab, Sky Ridge Medical Center, and the RidgeGate development see thousands of high-end vehicles daily, and door dings are an unfortunate reality. Confidents PDR specializes in the kind of meticulous, detail-oriented repair work that Lone Tree's luxury vehicle owners demand. Our technicians have advanced training in working with aluminum panels, high-strength steel, and the complex body lines found on modern luxury vehicles. We understand that a BMW, Mercedes, Tesla, or Porsche requires a different level of care than a standard sedan, and we bring that expertise to every Lone Tree repair. Many of our Lone Tree clients are repeat customers who trust us with their entire family's fleet of vehicles.",
-    image: "/car-luxury.jpg",
+    image: "/pdr-blue-sports-hood.webp",
     neighborhoods: [
       "Park Meadows area",
       "RidgeGate",
@@ -367,7 +367,7 @@ const areaData: Record<
       "Colorado Springs and the Pikes Peak region experience some of Colorado's most intense hail storms. Confidents PDR provides expert paintless dent removal throughout Colorado Springs — from the Broadmoor to Briargate, and from Manitou Springs to Falcon. Our team handles everything from minor door dings to extensive hail damage, with full insurance coordination included.",
     additionalInfo:
       "Colorado Springs is the second-largest city in Colorado, and its residents face unique challenges when it comes to vehicle dent damage. The city's proximity to Pikes Peak creates localized weather patterns that can produce severe hail — sometimes in areas only a few miles wide. Military families at Fort Carson, Peterson Space Force Base, and Schriever Space Force Base make up a significant portion of the Springs' population, and these families need reliable, affordable vehicle repair that works with military-friendly insurance providers like USAA. Confidents PDR is proud to serve the military community with priority scheduling, competitive pricing, and a deep understanding of the insurance providers and processes that matter most to service members. Beyond the military community, we serve everyone in Colorado Springs — from retirees in the Broadmoor area to young families in Briargate, and from small business owners on Tejon Street to tech workers in the Innovation Corridor.",
-    image: "/car-closeup.jpg",
+    image: "/pdr-suv-shop-setup.webp",
     neighborhoods: [
       "Briargate",
       "Northgate",
@@ -668,7 +668,7 @@ export default async function AreaPage({
             <ScrollReveal delay={200}>
               <div className="relative rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/hail-storm.jpg"
+                  src="/pdr-hail-dents-hood.webp"
                   alt={`Hail damage repair in ${area.name}`}
                   width={700}
                   height={500}
@@ -761,7 +761,7 @@ export default async function AreaPage({
       {/* Image Gallery Strip */}
       <section className="relative bg-brand-dark py-4 overflow-hidden">
         <div className="flex gap-4">
-          {["/car-red.jpg", "/car-corvette.jpg", "/car-luxury.jpg", "/car-dark.jpg", "/car-closeup.jpg", "/car-road.jpg"].map((src, i) => (
+          {["/pdr-red-crease-work.webp", "/pdr-black-porsche.webp", "/pdr-hail-led-inspect.webp", "/pdr-tools-flatlay.webp", "/pdr-roof-hail-aerial.webp", "/pdr-under-hood.webp"].map((src, i) => (
             <div key={i} className="relative flex-shrink-0 w-72 h-48 rounded-xl overflow-hidden">
               <Image src={src} alt="Vehicle showcase" fill className="object-cover hover:scale-110 transition-transform duration-700" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />

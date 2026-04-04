@@ -15,7 +15,7 @@ const featuredPost = {
   title: "Colorado Hail Season 2025: What Every Driver Needs to Know",
   excerpt:
     "Colorado's hail season runs from April through September, with peak activity in May, June, and July. The Front Range — from Colorado Springs through Denver and beyond — sits squarely in what meteorologists call 'Hail Alley,' a corridor that experiences more frequent and severe hail events than almost anywhere else in the country. In this guide, we break down what to expect, how to prepare your vehicle, and what to do if your car gets caught in a storm.",
-  image: "/hail-storm.jpg",
+  image: "/pdr-hailstorm-scene.webp",
   date: "March 15, 2025",
   readTime: "8 min read",
   category: "Hail Season",
@@ -27,7 +27,7 @@ const posts = [
     title: "PDR vs. Body Shop: Which Is Right for Your Dent?",
     excerpt:
       "Not all dents are created equal, and understanding the difference between paintless dent removal and traditional body shop repair can save you hundreds — or even thousands — of dollars. We walk through the key factors that determine which method is best for your specific situation.",
-    image: "/car-closeup.jpg",
+    image: "/pdr-vs-bodyshop.webp",
     date: "March 8, 2025",
     readTime: "6 min read",
     category: "PDR Education",
@@ -37,7 +37,7 @@ const posts = [
     title: "How to Protect Your Car from Hail Damage in Colorado",
     excerpt:
       "From covered parking strategies to hail blankets and insurance tips, here are practical steps every Colorado driver can take to minimize the risk of hail damage to their vehicle during storm season.",
-    image: "/car-road.jpg",
+    image: "/pdr-colorado-highway.webp",
     date: "February 28, 2025",
     readTime: "5 min read",
     category: "Prevention Tips",
@@ -47,7 +47,7 @@ const posts = [
     title: "Understanding Your Insurance Claim for Hail Damage",
     excerpt:
       "Filing a hail damage insurance claim can feel overwhelming, but it doesn't have to be. We explain the process step by step — from documenting the damage to working with adjusters — and how Confidents PDR handles it all for you.",
-    image: "/car-luxury.jpg",
+    image: "/pdr-insurance-papers.webp",
     date: "February 15, 2025",
     readTime: "7 min read",
     category: "Insurance",
@@ -57,7 +57,7 @@ const posts = [
     title: "What Is Paintless Dent Removal? A Complete Guide",
     excerpt:
       "Paintless dent removal is a specialized repair technique that restores vehicle panels to their original shape without affecting the factory paint. Learn how the process works, what types of damage it can fix, and why it's become the preferred method for dent repair worldwide.",
-    image: "/car-dark.jpg",
+    image: "/pdr-sedan-wand-check.webp",
     date: "February 1, 2025",
     readTime: "9 min read",
     category: "PDR Education",
@@ -67,7 +67,7 @@ const posts = [
     title: "Door Dings: Why You Shouldn't Ignore Them",
     excerpt:
       "That small parking lot ding might seem harmless, but leaving it unrepaired can impact your vehicle's resale value, lead to paint deterioration, and cost more to fix down the road. Here's why addressing door dings promptly is always the smart move.",
-    image: "/car-red.jpg",
+    image: "/pdr-door-ding-detail.webp",
     date: "January 20, 2025",
     readTime: "4 min read",
     category: "Vehicle Care",
@@ -77,7 +77,7 @@ const posts = [
     title: "Tesla & Aluminum Body PDR: What You Need to Know",
     excerpt:
       "Aluminum-bodied vehicles like Teslas, Ford F-150s, and luxury European cars require specialized PDR techniques. We explain the differences between steel and aluminum panel repair and what to look for in a qualified PDR technician for your aluminum vehicle.",
-    image: "/car-corvette.jpg",
+    image: "/pdr-tesla-fender.webp",
     date: "January 10, 2025",
     readTime: "6 min read",
     category: "PDR Education",

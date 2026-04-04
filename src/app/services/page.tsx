@@ -16,8 +16,8 @@ const serviceDetails = [
     id: "door-dings",
     title: "Door Ding Repair",
     subtitle: "Restore Your Panels to Factory Perfection",
-    image: "/car-closeup.jpg",
-    imageAlt: "Close-up view of a vehicle panel being repaired with paintless dent removal",
+    image: "/pdr-light-assessment.webp",
+    imageAlt: "PDR technician using specialized light to assess door ding damage",
     reverse: false,
     paragraphs: [
       "Door dings are one of the most common types of vehicle damage, and they happen to everyone. Whether it occurred in a crowded parking lot, from a stray shopping cart, or from a careless driver swinging their door into yours, these small but noticeable dents can significantly diminish the appearance and resale value of your vehicle. At Confidents PDR, we specialize in removing door dings quickly and affordably, without the need for fillers, sanding, or repainting.",
@@ -37,8 +37,8 @@ const serviceDetails = [
     id: "hail-damage",
     title: "Hail Damage Repair",
     subtitle: "Colorado's Trusted Hail Damage Specialists",
-    image: "/hail-storm.jpg",
-    imageAlt: "Hail storm damage on a vehicle requiring professional PDR repair",
+    image: "/pdr-hail-dents-hood.webp",
+    imageAlt: "Vehicle hood showing hail dent damage under professional lighting",
     reverse: true,
     paragraphs: [
       "Colorado is one of the most hail-prone regions in the entire country. Each spring and summer, severe storms roll through the Denver Metro area, leaving thousands of vehicles with hundreds or even thousands of dents across their hoods, roofs, and trunk lids. Traditional body shop repairs for hail damage can cost thousands of dollars and take weeks to complete, often requiring extensive sanding, filling, and repainting that permanently alters your vehicle's factory finish.",
@@ -58,8 +58,8 @@ const serviceDetails = [
     id: "large-dents",
     title: "Large Dent Repair",
     subtitle: "Save Thousands Over Traditional Body Work",
-    image: "/car-red.jpg",
-    imageAlt: "Red vehicle with large dent repair completed using PDR techniques",
+    image: "/pdr-tap-down.webp",
+    imageAlt: "PDR technician using tap-down technique for large dent repair on vehicle hood",
     reverse: false,
     paragraphs: [
       "Many vehicle owners assume that larger dents from collisions, fallen objects, or other significant impacts require a trip to a traditional body shop. In reality, a surprising number of large dents can be repaired with paintless dent removal, saving you a substantial amount of money while delivering a result that is often indistinguishable from the original factory condition. If the paint surface has not been cracked or chipped, PDR is almost always the best option.",
@@ -79,8 +79,8 @@ const serviceDetails = [
     id: "body-creases",
     title: "Body Crease Repair",
     subtitle: "Advanced Techniques for the Toughest Dents",
-    image: "/car-dark.jpg",
-    imageAlt: "Dark vehicle showcasing body crease repair with paintless dent removal",
+    image: "/pdr-slide-hammer.webp",
+    imageAlt: "PDR technician using slide hammer for body crease repair on vehicle panel",
     reverse: true,
     paragraphs: [
       "Body creases are among the most challenging types of damage to repair without conventional body work. A crease occurs when an impact creates a sharp, linear indentation in the metal, often stretching across a significant portion of a panel. Unlike round dents that have a natural tendency to flex back into shape, creases involve metal that has been stretched and displaced along a line, requiring exceptional skill and patience to repair properly.",
@@ -399,8 +399,8 @@ export default function ServicesPage() {
             <ScrollReveal delay={200}>
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-white/10">
                 <Image
-                  src="/car-luxury.jpg"
-                  alt="Luxury fleet vehicle maintained with professional paintless dent removal services"
+                  src="/pdr-luxury-sedan.webp"
+                  alt="Pristine luxury sedan maintained with professional PDR fleet services"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -415,8 +415,8 @@ export default function ServicesPage() {
       {/* Full-Width Image Banner */}
       <section className="relative h-[400px] sm:h-[500px]">
         <Image
-          src="/car-road.jpg"
-          alt="Vehicle driving on an open road after professional dent repair"
+          src="/pdr-colorado-highway.webp"
+          alt="Premium sedan driving on Colorado highway with Rocky Mountains"
           fill
           className="object-cover"
           sizes="100vw"

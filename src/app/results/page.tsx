@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const featuredRepairs = [
   {
-    image: "/car-corvette.jpg",
+    image: "/pdr-suv-multi-led.webp",
     repairType: "Hail Damage Restoration",
     vehicle: "2024 Chevrolet Corvette Stingray",
     time: "4 hours",
@@ -22,7 +22,7 @@ const featuredRepairs = [
       "Over 60 hail impacts across the hood, roof, and rear quarters. Every dent removed without touching the factory paint.",
   },
   {
-    image: "/car-luxury.jpg",
+    image: "/pdr-luxury-sedan.webp",
     repairType: "Door Ding Removal",
     vehicle: "2023 Mercedes-Benz S-Class",
     time: "1.5 hours",
@@ -31,7 +31,7 @@ const featuredRepairs = [
       "Deep parking lot door ding on the passenger side. Restored to a flawless finish in under two hours.",
   },
   {
-    image: "/car-red.jpg",
+    image: "/pdr-red-crease-work.webp",
     repairType: "Body Crease Repair",
     vehicle: "2024 Porsche 911 Carrera",
     time: "2.5 hours",
@@ -40,7 +40,7 @@ const featuredRepairs = [
       "A sharp crease along the driver-side fender from a shopping cart impact. Massaged out with zero paint damage.",
   },
   {
-    image: "/car-dark.jpg",
+    image: "/pdr-black-porsche.webp",
     repairType: "Large Dent Repair",
     vehicle: "2023 Audi RS7",
     time: "3 hours",
@@ -49,7 +49,7 @@ const featuredRepairs = [
       "Significant dent on the rear quarter panel from a minor collision. Full restoration with no body filler or repainting.",
   },
   {
-    image: "/car-road.jpg",
+    image: "/pdr-hail-dents-hood.webp",
     repairType: "Multi-Panel Hail Repair",
     vehicle: "2022 Ford Bronco",
     time: "5 hours",
@@ -58,7 +58,7 @@ const featuredRepairs = [
       "Severe hail storm damage across hood, roof, and trunk. Over 100 dents removed in a single session.",
   },
   {
-    image: "/car-closeup.jpg",
+    image: "/pdr-tesla-ding-fix.webp",
     repairType: "Precision Ding Removal",
     vehicle: "2024 Tesla Model Y",
     time: "45 minutes",
@@ -79,25 +79,25 @@ const stats = [
 
 const damageTypes = [
   {
-    image: "/hail-storm.jpg",
+    image: "/pdr-hailstorm-scene.webp",
     title: "Hail Damage",
     description:
       "From minor peppering to severe storms, we restore hail-damaged panels to factory condition without repainting.",
   },
   {
-    image: "/car-closeup.jpg",
+    image: "/pdr-door-ding-detail.webp",
     title: "Door Dings",
     description:
       "Parking lot dings and minor impacts removed cleanly, preserving your original finish and vehicle value.",
   },
   {
-    image: "/car-dark.jpg",
+    image: "/pdr-large-dent-amber.webp",
     title: "Large Dents",
     description:
       "Shopping cart hits, minor collisions, and other impacts repaired without body filler or new paint.",
   },
   {
-    image: "/car-red.jpg",
+    image: "/pdr-body-crease-red.webp",
     title: "Body Line Creases",
     description:
       "Sharp creases along body lines require expert technique. We restore the factory edge with precision.",
@@ -282,8 +282,8 @@ export default function ResultsPage() {
               <div className="grid md:grid-cols-2">
                 <div className="relative aspect-square md:aspect-auto overflow-hidden">
                   <Image
-                    src="/car-luxury.jpg"
-                    alt="Luxury vehicle after paintless dent removal"
+                    src="/pdr-finishing.webp"
+                    alt="PDR technician performing final quality inspection on vehicle"
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"

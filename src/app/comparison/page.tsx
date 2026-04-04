@@ -422,8 +422,8 @@ export default function ComparisonPage() {
             <ScrollReveal delay={0}>
               <div className="rounded-2xl overflow-hidden border border-white/10 aspect-[4/3] relative">
                 <Image
-                  src="/car-corvette.jpg"
-                  alt="Corvette with flawless finish after PDR"
+                  src="/pdr-light-board.webp"
+                  alt="PDR technician using light board to inspect vehicle panel"
                   fill
                   className="object-cover"
                 />
@@ -432,8 +432,8 @@ export default function ComparisonPage() {
             <ScrollReveal delay={100}>
               <div className="rounded-2xl overflow-hidden border border-white/10 aspect-[4/3] relative">
                 <Image
-                  src="/car-luxury.jpg"
-                  alt="Luxury vehicle restored with paintless dent removal"
+                  src="/pdr-tesla-fender.webp"
+                  alt="PDR technician working on Tesla fender panel"
                   fill
                   className="object-cover"
                 />
@@ -442,8 +442,8 @@ export default function ComparisonPage() {
             <ScrollReveal delay={200}>
               <div className="rounded-2xl overflow-hidden border border-white/10 aspect-[4/3] relative">
                 <Image
-                  src="/car-dark.jpg"
-                  alt="Dark vehicle showing perfect panel contours after repair"
+                  src="/pdr-blue-sports-hood.webp"
+                  alt="PDR repair on blue sports car hood with LED board"
                   fill
                   className="object-cover"
                 />
@@ -452,8 +452,8 @@ export default function ComparisonPage() {
             <ScrollReveal delay={100}>
               <div className="rounded-2xl overflow-hidden border border-white/10 aspect-[4/3] relative">
                 <Image
-                  src="/car-closeup.jpg"
-                  alt="Close-up detail of paint surface preserved by PDR"
+                  src="/pdr-suv-door-repair.webp"
+                  alt="Technician repairing SUV door panel with PDR rod"
                   fill
                   className="object-cover"
                 />
@@ -462,8 +462,8 @@ export default function ComparisonPage() {
             <ScrollReveal delay={200}>
               <div className="rounded-2xl overflow-hidden border border-white/10 aspect-[4/3] relative">
                 <Image
-                  src="/car-red.jpg"
-                  alt="Red vehicle with dent-free body panels"
+                  src="/pdr-red-crease-work.webp"
+                  alt="Technician repairing crease on red sports car"
                   fill
                   className="object-cover"
                 />
@@ -472,8 +472,8 @@ export default function ComparisonPage() {
             <ScrollReveal delay={300}>
               <div className="rounded-2xl overflow-hidden border border-white/10 aspect-[4/3] relative">
                 <Image
-                  src="/hail-storm.jpg"
-                  alt="Hail storm damage that PDR can repair"
+                  src="/pdr-suv-multi-led.webp"
+                  alt="SUV surrounded by LED boards for complete hail repair"
                   fill
                   className="object-cover"
                 />

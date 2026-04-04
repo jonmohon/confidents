@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="/hero-bg.jpg"
+        src="/pdr-inspection.webp"
         alt=""
         fill
         className="object-cover object-center"
