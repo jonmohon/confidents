@@ -76,7 +76,7 @@ export default function ValueProps() {
             </h2>
             <p className="text-gray-500 max-w-2xl mx-auto">
               We deliver the highest quality paintless dent removal in the
-              Denver Metro area with unmatched service and value.
+              Douglas County area with unmatched service and value.
             </p>
           </div>
         </ScrollReveal>

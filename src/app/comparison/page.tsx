@@ -285,7 +285,7 @@ export default function ComparisonPage() {
               <p className="text-gray-500 max-w-2xl mx-auto">
                 PDR consistently costs a fraction of what traditional body shop
                 repairs charge. Below are typical cost ranges based on common
-                repair scenarios in the Denver metro area.
+                repair scenarios in the Douglas County area.
               </p>
             </div>
           </ScrollReveal>
@@ -523,7 +523,7 @@ export default function ComparisonPage() {
                 </svg>
               </Link>
               <Link
-                href="tel:+17205551234"
+                href="tel:+13033046022"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 text-white font-bold text-lg hover:bg-white/5 transition"
               >
                 <svg

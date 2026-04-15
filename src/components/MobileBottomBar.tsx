@@ -5,7 +5,7 @@ export default function MobileBottomBar() {
     <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-white/10 bg-brand-dark/95 p-3 backdrop-blur-lg md:hidden">
       <div className="flex gap-3">
         <a
-          href="tel:+17205551234"
+          href="tel:+13033046022"
           className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-white/10 py-3.5 text-sm font-semibold text-white active:scale-95 transition-transform"
         >
           <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -14,7 +14,7 @@ export default function MobileBottomBar() {
           Call Now
         </a>
         <a
-          href="sms:+17205551234"
+          href="sms:+13033046022"
           className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-white/10 py-3.5 text-sm font-semibold text-white active:scale-95 transition-transform"
         >
           <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

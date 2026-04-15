@@ -331,11 +331,11 @@ export default function Home() {
                   About Us
                 </p>
                 <h2 className="text-3xl sm:text-5xl font-black text-white mb-6 tracking-tight">
-                  Denver&apos;s Most Trusted PDR Team
+                  Douglas County&apos;s Most Trusted PDR Team
                 </h2>
                 <p className="text-gray-400 leading-relaxed mb-6">
                   Confidents Paintless Dent Removal is a team of certified PDR
-                  specialists serving the Denver Metro area and Colorado Springs.
+                  specialists serving the Douglas County area.
                   With over 15 years of experience and thousands of successful
                   repairs, we&apos;ve built our reputation on precision, integrity,
                   and outstanding customer service.
@@ -464,8 +464,8 @@ export default function Home() {
                 Areas We Serve
               </h2>
               <p className="text-gray-500 max-w-2xl mx-auto">
-                We provide mobile paintless dent removal across the Denver Metro
-                area and Colorado Springs. We come to you — home, office, or
+                We provide mobile paintless dent removal across the Douglas County
+                area. We come to you — home, office, or
                 anywhere your vehicle is parked.
               </p>
             </div>
@@ -474,13 +474,11 @@ export default function Home() {
           <ScrollReveal delay={200}>
             <div className="flex flex-wrap justify-center gap-3 mb-12">
               {[
-                { name: "Denver", slug: "denver" },
                 { name: "Castle Rock", slug: "castle-rock" },
-                { name: "Littleton", slug: "littleton" },
                 { name: "Parker", slug: "parker" },
-                { name: "Aurora", slug: "aurora" },
+                { name: "Highlands Ranch", slug: "highlands-ranch" },
                 { name: "Lone Tree", slug: "lone-tree" },
-                { name: "Colorado Springs", slug: "colorado-springs" },
+                { name: "Castle Pines", slug: "castle-pines" },
               ].map((area) => (
                 <Link
                   key={area.slug}
@@ -534,13 +532,13 @@ export default function Home() {
                 Get Your Free Estimate
               </Link>
               <a
-                href="tel:+17205551234"
+                href="tel:+13033046022"
                 className="border border-white/20 hover:border-brand-orange/50 hover:bg-white/5 text-white font-bold text-lg px-10 py-4 rounded-xl transition-all flex items-center justify-center gap-2"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                (720) 555-1234
+                (303) 304-6022
               </a>
             </div>
           </ScrollReveal>

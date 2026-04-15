@@ -39,7 +39,7 @@ const testimonials = [
   {
     name: "Robert K.",
     vehicle: "2022 Chevrolet Silverado",
-    location: "Colorado Springs, CO",
+    location: "Castle Pines, CO",
     rating: 5,
     text: "Had extensive hail damage — over 100 dents across the hood, roof, and trunk. Confidents worked with my insurance and got it all approved. $0 out of pocket. The truck looks showroom-new.",
   },

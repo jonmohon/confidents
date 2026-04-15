@@ -107,10 +107,21 @@ export default function Gallery() {
         </div>
 
         <ScrollReveal delay={400}>
-          <div className="mt-12 text-center">
+          <div className="mt-12 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://photos.app.goo.gl/XRtrKGeYuPYLXQRUA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-shine inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-amber text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg shadow-brand-orange/25 hover:shadow-xl hover:shadow-brand-orange/40 active:scale-[0.98]"
+            >
+              View Photo Gallery
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
             <a
               href="#contact"
-              className="btn-shine inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-amber text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg shadow-brand-orange/25 hover:shadow-xl hover:shadow-brand-orange/40 active:scale-[0.98]"
+              className="inline-flex items-center gap-2 border border-white/20 hover:border-brand-orange/50 hover:bg-white/5 text-white font-bold px-8 py-4 rounded-xl transition-all active:scale-[0.98]"
             >
               See What We Can Do for You
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

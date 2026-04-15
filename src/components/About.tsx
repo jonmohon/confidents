@@ -2,14 +2,11 @@ import Image from "next/image";
 import ScrollReveal from "./ScrollReveal";
 
 const serviceAreas = [
-  "Denver",
   "Castle Rock",
-  "Littleton",
   "Parker",
-  "Aurora",
+  "Highlands Ranch",
   "Lone Tree",
-  "Colorado Springs",
-  "SW Denver Metro",
+  "Castle Pines",
 ];
 
 export default function About() {
@@ -29,7 +26,7 @@ export default function About() {
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">
                 Confidents Paintless Dent Removal is a team of certified PDR
-                specialists serving the Denver Metro area and Colorado Springs.
+                specialists serving the Douglas County area.
                 With over 15 years of experience and thousands of successful
                 repairs, we&apos;ve built our reputation on precision, integrity,
                 and outstanding customer service.

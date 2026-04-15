@@ -202,7 +202,7 @@ export default function ResultsPage() {
               </h2>
               <p className="text-gray-500 max-w-2xl mx-auto">
                 The results are more than visual. Here is what our track record
-                looks like across thousands of repairs in the Denver metro area.
+                looks like across thousands of repairs in the Douglas County area.
               </p>
             </div>
           </ScrollReveal>

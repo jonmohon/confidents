@@ -6,27 +6,15 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Areas We Serve | Confidents Paintless Dent Removal",
   description:
-    "Confidents PDR serves the Denver Metro area and Colorado Springs. Mobile paintless dent removal in Denver, Castle Rock, Littleton, Parker, Aurora, Lone Tree, and Colorado Springs.",
+    "Confidents PDR serves the Douglas County area. Mobile paintless dent removal in Castle Rock, Parker, Highlands Ranch, Lone Tree, and Castle Pines.",
 };
 
 const areas = [
   {
-    slug: "denver",
-    name: "Denver",
-    description: "Serving the Denver metro area with premium mobile PDR services. From downtown Denver to the surrounding neighborhoods.",
-    icon: "🏙️",
-  },
-  {
     slug: "castle-rock",
     name: "Castle Rock",
-    description: "Expert paintless dent removal in Castle Rock and the I-25 corridor between Denver and Colorado Springs.",
+    description: "Expert paintless dent removal in Castle Rock and the I-25 corridor. Serving the heart of Douglas County.",
     icon: "🏔️",
-  },
-  {
-    slug: "littleton",
-    name: "Littleton",
-    description: "Professional PDR services throughout Littleton, Ken Caryl, Columbine, and the Southwest Metro area.",
-    icon: "🌄",
   },
   {
     slug: "parker",
@@ -35,10 +23,10 @@ const areas = [
     icon: "🏡",
   },
   {
-    slug: "aurora",
-    name: "Aurora",
-    description: "Comprehensive paintless dent removal across Aurora — from Southlands to the Anschutz Medical Campus area.",
-    icon: "🌅",
+    slug: "highlands-ranch",
+    name: "Highlands Ranch",
+    description: "Professional PDR services throughout Highlands Ranch and the surrounding communities.",
+    icon: "🌄",
   },
   {
     slug: "lone-tree",
@@ -47,10 +35,10 @@ const areas = [
     icon: "🌲",
   },
   {
-    slug: "colorado-springs",
-    name: "Colorado Springs",
-    description: "Full-service paintless dent removal in Colorado Springs and the Pikes Peak region.",
-    icon: "⛰️",
+    slug: "castle-pines",
+    name: "Castle Pines",
+    description: "Premium paintless dent removal in Castle Pines and Castle Pines Village.",
+    icon: "🌲",
   },
 ];
 
@@ -60,7 +48,7 @@ export default function AreasWeServePage() {
       <PageHero
         label="Service Areas"
         title="Areas We Serve"
-        description="We bring premium paintless dent removal directly to you across the Denver Metro area and Colorado Springs. Mobile service — we come to your home or office."
+        description="We bring premium paintless dent removal directly to you across the Douglas County area. Mobile service — we come to your home or office."
       />
 
       <section className="relative py-24 bg-brand-surface border-y border-white/5">

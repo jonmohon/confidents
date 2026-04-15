@@ -10,13 +10,11 @@ const services = [
 ];
 
 const areas = [
-  { label: "Denver", href: "/areas-we-serve/denver" },
   { label: "Castle Rock", href: "/areas-we-serve/castle-rock" },
-  { label: "Littleton", href: "/areas-we-serve/littleton" },
   { label: "Parker", href: "/areas-we-serve/parker" },
-  { label: "Aurora", href: "/areas-we-serve/aurora" },
+  { label: "Highlands Ranch", href: "/areas-we-serve/highlands-ranch" },
   { label: "Lone Tree", href: "/areas-we-serve/lone-tree" },
-  { label: "Colorado Springs", href: "/areas-we-serve/colorado-springs" },
+  { label: "Castle Pines", href: "/areas-we-serve/castle-pines" },
 ];
 
 export default function Footer() {
@@ -29,7 +27,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Image src="/logo.png" alt="Confidents PDR" width={200} height={80} className="h-16 w-auto mb-4" />
             <p className="text-gray-600 text-sm leading-relaxed">
-              Denver Metro&apos;s premier paintless dent removal service.
+              Douglas County&apos;s premier paintless dent removal service.
               Precision repairs. Lifetime warranty. Zero hassle.
             </p>
           </div>
@@ -71,7 +69,7 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-4 text-sm">Contact</h4>
             <ul className="space-y-2.5 text-gray-500 text-sm">
               <li>
-                <a href="tel:+17205551234" className="hover:text-brand-orange transition-colors">(720) 555-1234</a>
+                <a href="tel:+13033046022" className="hover:text-brand-orange transition-colors">(303) 304-6022</a>
               </li>
               <li>
                 <a href="mailto:info@confidentspdr.com" className="hover:text-brand-orange transition-colors">info@confidentspdr.com</a>

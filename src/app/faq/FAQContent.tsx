@@ -25,7 +25,7 @@ const quickAnswers = [
     ),
     title: "How Long Does It Take?",
     answer:
-      "Most door dings are fixed in 1 to 3 hours. Hail damage typically takes 1 to 3 days -- compared to weeks at a traditional body shop.",
+      "Most door dings are fixed same day. Hail damage typically takes 1 to 4 days -- compared to weeks at a traditional body shop.",
   },
   {
     icon: (
@@ -35,7 +35,7 @@ const quickAnswers = [
     ),
     title: "Is There a Warranty?",
     answer:
-      "Every repair comes with a lifetime warranty. If you are ever unsatisfied with the result, we will make it right -- guaranteed.",
+      "Every repair comes with a lifetime warranty and 100% satisfaction guarantee. If you are ever unsatisfied with the result, we will make it right.",
   },
   {
     icon: (
@@ -46,7 +46,7 @@ const quickAnswers = [
     ),
     title: "Do You Come to Me?",
     answer:
-      "Yes. We offer mobile PDR service throughout the Denver Metro area and Colorado Springs. We come to your home, office, or dealership.",
+      "Yes. We offer mobile PDR service throughout the Douglas County area. We come to your home, office, or dealership.",
   },
 ];
 
@@ -308,10 +308,10 @@ export function StillHaveQuestions() {
                   <div>
                     <p className="text-sm text-gray-500 mb-0.5">Call or text</p>
                     <a
-                      href="tel:+17205551234"
+                      href="tel:+13033046022"
                       className="text-brand-orange font-semibold text-lg hover:text-brand-amber transition-colors"
                     >
-                      (720) 555-1234
+                      (303) 304-6022
                     </a>
                   </div>
                 </div>
@@ -383,13 +383,13 @@ export function CTASection() {
               </svg>
             </Link>
             <a
-              href="tel:+17205551234"
+              href="tel:+13033046022"
               className="inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white font-bold px-8 py-4 rounded-full transition-all hover:bg-white/5"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              (720) 555-1234
+              (303) 304-6022
             </a>
           </div>
         </ScrollReveal>

@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     q: "How much does PDR cost?",
-    a: "The cost depends on the size, location, and number of dents. Small door dings can start as low as $75-$150. Hail damage repairs vary based on severity. We offer free estimates and work directly with insurance companies, so many customers pay $0 out of pocket for hail repairs.",
+    a: "Small door dings start as low as $75-$150. Larger damage varies in price yet still costs a fraction of traditional body work. We offer free estimates and work directly with insurance companies, so many customers pay $0 out of pocket for hail repairs.",
   },
   {
     q: "Will my insurance cover the repair?",
@@ -18,11 +18,11 @@ const faqs = [
   },
   {
     q: "How long does a repair take?",
-    a: "Most minor dents and door dings are repaired in 1-3 hours. Hail damage with multiple dents typically takes 1-3 days depending on severity. Compare that to 1-3 weeks at a traditional body shop!",
+    a: "Most minor dents and door dings are repaired same day. Hail damage typically takes 1 to 4 days — compared to weeks at a traditional body shop.",
   },
   {
     q: "Do you come to me?",
-    a: "Absolutely! We offer mobile PDR service throughout the Denver Metro area and Colorado Springs. We'll come to your home, office, or wherever your vehicle is parked.",
+    a: "Yes. We offer mobile PDR service throughout the Douglas County area. We come to your home, office, or dealership.",
   },
   {
     q: "Will the repair show up on CARFAX?",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "Do you offer a warranty?",
-    a: "Yes — every repair comes with a lifetime warranty. If you're ever unsatisfied with the repair, we'll make it right. We stand behind our work with the strongest guarantee in the industry.",
+    a: "Yes — every repair comes with a lifetime warranty and 100% satisfaction guarantee. If you're ever unsatisfied with the repair, we'll make it right.",
   },
 ];
 

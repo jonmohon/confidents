@@ -8,17 +8,15 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Contact Us | Confidents Paintless Dent Removal",
   description:
-    "Get a free estimate for paintless dent removal. Contact us by phone, email, or form. We serve Denver, Castle Rock, Littleton, Parker, Aurora, Lone Tree, and Colorado Springs.",
+    "Get a free estimate for paintless dent removal. Contact us by phone, email, or form. We serve Castle Rock, Parker, Highlands Ranch, Lone Tree, and Castle Pines.",
 };
 
 const serviceAreas = [
-  { name: "Denver", href: "/areas-we-serve/denver" },
   { name: "Castle Rock", href: "/areas-we-serve/castle-rock" },
-  { name: "Littleton", href: "/areas-we-serve/littleton" },
   { name: "Parker", href: "/areas-we-serve/parker" },
-  { name: "Aurora", href: "/areas-we-serve/aurora" },
+  { name: "Highlands Ranch", href: "/areas-we-serve/highlands-ranch" },
   { name: "Lone Tree", href: "/areas-we-serve/lone-tree" },
-  { name: "Colorado Springs", href: "/areas-we-serve/colorado-springs" },
+  { name: "Castle Pines", href: "/areas-we-serve/castle-pines" },
 ];
 
 const trustItems = [
@@ -131,7 +129,7 @@ export default function ContactPage() {
                 <div className="rounded-2xl border border-white/10 bg-brand-surface p-8">
                   <h3 className="text-xl font-bold text-white mb-4">Quick Contact</h3>
                   <div className="space-y-4">
-                    <a href="tel:+17205551234" className="flex items-center gap-3 group">
+                    <a href="tel:+13033046022" className="flex items-center gap-3 group">
                       <div className="w-10 h-10 rounded-lg bg-brand-orange/10 flex items-center justify-center group-hover:bg-brand-orange/20 transition-colors">
                         <svg className="w-5 h-5 text-brand-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -139,7 +137,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-xs text-gray-500 uppercase tracking-wider">Phone</p>
-                        <p className="text-white font-semibold group-hover:text-brand-orange transition-colors">(720) 555-1234</p>
+                        <p className="text-white font-semibold group-hover:text-brand-orange transition-colors">(303) 304-6022</p>
                       </div>
                     </a>
                     <a href="mailto:info@confidentspdr.com" className="flex items-center gap-3 group">
@@ -307,7 +305,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex flex-col gap-3">
                   <a
-                    href="tel:+17205551234"
+                    href="tel:+13033046022"
                     className="inline-flex items-center justify-center gap-2 bg-brand-orange hover:bg-brand-amber text-white font-bold px-8 py-4 rounded-xl transition-colors text-lg"
                   >
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -336,7 +334,7 @@ export default function ContactPage() {
                 Service Areas
               </h2>
               <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
-                We provide mobile paintless dent removal across the Denver metro area and along the Front Range. If you do not see your area listed, contact us -- we likely cover it.
+                We provide mobile paintless dent removal across the Douglas County area. If you do not see your area listed, contact us -- we likely cover it.
               </p>
             </div>
           </ScrollReveal>
@@ -365,7 +363,7 @@ export default function ContactPage() {
             <div className="mt-10 text-center">
               <p className="text-gray-500 text-sm">
                 Do not see your city?{" "}
-                <a href="tel:+17205551234" className="text-brand-orange hover:text-brand-amber font-semibold transition-colors">
+                <a href="tel:+13033046022" className="text-brand-orange hover:text-brand-amber font-semibold transition-colors">
                   Give us a call
                 </a>{" "}
                 -- we serve the entire Front Range corridor.
@@ -411,10 +409,10 @@ export default function ContactPage() {
                     Get Your Free Estimate
                   </a>
                   <a
-                    href="tel:+17205551234"
+                    href="tel:+13033046022"
                     className="inline-flex items-center justify-center gap-2 border border-white/20 text-white font-bold px-8 py-4 rounded-xl hover:border-brand-orange/50 hover:text-brand-orange transition-colors"
                   >
-                    Call (720) 555-1234
+                    Call (303) 304-6022
                   </a>
                 </div>
               </div>

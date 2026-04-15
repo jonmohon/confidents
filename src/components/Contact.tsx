@@ -18,7 +18,7 @@ export default function Contact() {
               <p className="text-gray-400 mb-10 leading-relaxed">
                 Ready to get your vehicle looking like new? Contact us today for
                 a free, no-obligation estimate. We come to you anywhere in the
-                Denver Metro area or Colorado Springs.
+                Douglas County area.
               </p>
 
               <div className="space-y-6">
@@ -31,8 +31,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1 text-sm">Call or Text</h3>
-                    <a href="tel:+17205551234" className="text-brand-orange font-semibold text-lg hover:text-brand-amber transition-colors">
-                      (720) 555-1234
+                    <a href="tel:+13033046022" className="text-brand-orange font-semibold text-lg hover:text-brand-amber transition-colors">
+                      (303) 304-6022
                     </a>
                     <p className="text-xs text-gray-600 mt-1">
                       Mon-Sat: 7am - 7pm | Sun: By appointment
@@ -69,8 +69,8 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-white mb-1 text-sm">Service Area</h3>
                     <p className="text-gray-400 text-sm">
-                      Denver, Castle Rock, Littleton, Parker, Aurora, Lone Tree,
-                      Colorado Springs &amp; the SW Denver Metro area
+                      Castle Rock, Parker, Highlands Ranch, Lone Tree,
+                      Castle Pines &amp; the Douglas County area
                     </p>
                   </div>
                 </div>

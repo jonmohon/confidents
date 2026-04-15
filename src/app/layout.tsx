@@ -12,15 +12,15 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Confidents Paintless Dent Removal | Denver Metro & Colorado Springs",
+  title: "Confidents Paintless Dent Removal | Douglas County, CO",
   description:
-    "Denver Metro's premier paintless dent removal service. Serving Castle Rock, Littleton, Parker, Aurora, Lone Tree & Colorado Springs. Free estimates, lifetime warranty, insurance approved.",
+    "Douglas County's premier paintless dent removal service. Serving Castle Rock, Parker, Highlands Ranch, Lone Tree & Castle Pines. Free estimates, lifetime warranty, insurance approved.",
   keywords:
-    "paintless dent removal, PDR, dent repair, hail damage repair, Denver, Castle Rock, Littleton, Parker, Aurora, Lone Tree, Colorado Springs, door ding repair",
+    "paintless dent removal, PDR, dent repair, hail damage repair, Castle Rock, Parker, Highlands Ranch, Lone Tree, Castle Pines, Douglas County, door ding repair",
   openGraph: {
     title: "Confidents Paintless Dent Removal",
     description:
-      "Denver Metro's premier paintless dent removal. Free estimates & lifetime warranty.",
+      "Douglas County's premier paintless dent removal. Free estimates & lifetime warranty.",
     type: "website",
   },
 };

@@ -8,7 +8,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Our Services | Confidents Paintless Dent Removal",
   description:
-    "Professional paintless dent removal services including door ding repair, hail damage repair, large dent repair, and body crease repair in the Denver Metro area.",
+    "Professional paintless dent removal services including door ding repair, hail damage repair, large dent repair, and body crease repair in the Douglas County area.",
 };
 
 const serviceDetails = [
@@ -41,7 +41,7 @@ const serviceDetails = [
     imageAlt: "Vehicle hood showing hail dent damage under professional lighting",
     reverse: true,
     paragraphs: [
-      "Colorado is one of the most hail-prone regions in the entire country. Each spring and summer, severe storms roll through the Denver Metro area, leaving thousands of vehicles with hundreds or even thousands of dents across their hoods, roofs, and trunk lids. Traditional body shop repairs for hail damage can cost thousands of dollars and take weeks to complete, often requiring extensive sanding, filling, and repainting that permanently alters your vehicle's factory finish.",
+      "Colorado is one of the most hail-prone regions in the entire country. Each spring and summer, severe storms roll through the Douglas County area, leaving thousands of vehicles with hundreds or even thousands of dents across their hoods, roofs, and trunk lids. Traditional body shop repairs for hail damage can cost thousands of dollars and take weeks to complete, often requiring extensive sanding, filling, and repainting that permanently alters your vehicle's factory finish.",
       "Paintless dent removal is the insurance-preferred method for hail damage repair, and for good reason. PDR is faster, more affordable, and produces a superior result compared to conventional body work. Our team has repaired hail damage on thousands of vehicles throughout the Front Range, and we work directly with all major insurance carriers to make the claims process as seamless as possible. We handle the estimate, the supplement, and all communications with your adjuster so you can focus on getting your vehicle back to normal.",
       "From light hail with scattered dents to catastrophic storms that leave your vehicle looking like a golf ball, we have the tools and experience to handle it all. Our shop is fully equipped with specialized lighting systems that allow us to see and access every dent, ensuring a thorough and complete repair every time.",
     ],
@@ -340,8 +340,7 @@ export default function ServicesPage() {
                   </p>
                   <p className="text-gray-400 leading-relaxed">
                     We currently serve auto dealerships, rental agencies, corporate fleets, and
-                    municipal vehicle pools throughout the Denver Metro area and along the entire
-                    Front Range. Contact us to set up a fleet account and start saving on your
+                    municipal vehicle pools throughout the Douglas County area. Contact us to set up a fleet account and start saving on your
                     vehicle maintenance costs today.
                   </p>
                 </div>

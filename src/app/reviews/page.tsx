@@ -8,7 +8,7 @@ import Testimonials from "@/components/Testimonials";
 export const metadata: Metadata = {
   title: "Reviews | Confidents Paintless Dent Removal",
   description:
-    "Read what our customers say about Confidents PDR. 5.0 Google rating with 100+ reviews across Denver, Castle Rock, Littleton, Parker, Aurora, and Colorado Springs.",
+    "Read what our customers say about Confidents PDR. 5.0 Google rating with 100+ reviews across Castle Rock, Parker, Highlands Ranch, Lone Tree, and Castle Pines.",
 };
 
 function Stars({ count }: { count: number }) {
@@ -118,7 +118,7 @@ const serviceReviews = [
       {
         name: "Stephanie N.",
         vehicle: "2023 Kia Telluride",
-        location: "Colorado Springs, CO",
+        location: "Castle Rock, CO",
         text: "My husband bumped a concrete pillar in our parking garage. The dent looked terrible. Confidents came out the next day, and within two hours it was completely gone. No paint needed. The finish is untouched. Truly amazing work.",
       },
     ],
@@ -131,7 +131,7 @@ export default function ReviewsPage() {
       <PageHero
         label="Testimonials"
         title="What Our Customers Say"
-        description="Don't just take our word for it — hear from real customers across the Denver Metro area and Colorado Springs."
+        description="Don't just take our word for it — hear from real customers across the Douglas County area."
       />
 
       {/* Review Highlights Stats Bar */}
@@ -210,7 +210,7 @@ export default function ReviewsPage() {
                 </svg>
                 <Stars count={5} />
                 <p className="text-gray-300 text-lg leading-relaxed mt-5 mb-2">
-                  &ldquo;After the massive hail storm that hit the south Denver metro area last June, our entire neighborhood was scrambling to find repair shops. Most places had six to eight week wait times. Confidents got us in within five days.&rdquo;
+                  &ldquo;After the massive hail storm that hit the south Douglas County area last June, our entire neighborhood was scrambling to find repair shops. Most places had six to eight week wait times. Confidents got us in within five days.&rdquo;
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed mb-2">
                   &ldquo;Our 2023 Tahoe had well over 150 dents across the hood, roof, and both quarter panels. The insurance adjuster initially wanted to total the vehicle. Confidents worked directly with our adjuster, provided detailed documentation, and got the full repair approved.&rdquo;
@@ -422,7 +422,7 @@ export default function ReviewsPage() {
                 </svg>
               </Link>
               <a
-                href="tel:+17205551234"
+                href="tel:+13033046022"
                 className="inline-flex items-center justify-center gap-2 bg-white/[0.06] hover:bg-white/[0.1] border border-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors duration-200"
               >
                 <svg

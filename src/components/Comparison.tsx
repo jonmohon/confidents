@@ -1,8 +1,8 @@
 import ScrollReveal from "./ScrollReveal";
 
 const rows = [
-  { feature: "Repair Time", pdr: "Same day (1-3 hours)", body: "5-14 days" },
-  { feature: "Factory Paint", pdr: "100% preserved", body: "Repainted (color mismatch risk)" },
+  { feature: "Repair Time", pdr: "Same day (excluding hail)", body: "5-20 days" },
+  { feature: "Factory Paint", pdr: "Preserves factory paint", body: "Repainted panels can show color or texture discrepancies" },
   { feature: "Cost", pdr: "50-70% less", body: "Full price" },
   { feature: "CARFAX Report", pdr: "Not reported", body: "Reported as body work" },
   { feature: "Vehicle Value", pdr: "Maintained", body: "Decreased" },

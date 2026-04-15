@@ -25,71 +25,13 @@ const areaData: Record<
     hailInfo: string;
   }
 > = {
-  denver: {
-    name: "Denver",
-    headline: "Paintless Dent Removal in Denver",
-    description:
-      "Denver's premier mobile PDR service. We come to your home or office anywhere in the Denver metro area.",
-    longDescription:
-      "As Colorado's capital city, Denver is no stranger to hail storms, parking lot dings, and the everyday dents that come with city driving. Confidents PDR brings expert paintless dent removal directly to you — whether you're downtown, in the suburbs, or anywhere across the Denver metro area. Our certified technicians have repaired thousands of vehicles throughout Denver, from luxury sedans in Cherry Creek to trucks in the RiNo district.",
-    additionalInfo:
-      "Denver's mix of urban parking garages, tight street parking, and unpredictable weather makes dent damage an unavoidable reality for most vehicle owners. Whether your car was caught in a sudden afternoon hail storm rolling off the Front Range, or you came back from King Soopers to find a fresh door ding, Confidents PDR has the tools and expertise to make the damage disappear. We understand that Denver drivers depend on their vehicles, which is why we offer flexible scheduling — including early morning and weekend appointments — so you never have to miss work or rearrange your day to get a repair done. Our mobile service means we set up right in your driveway, parking garage, or office lot, completing most repairs in just a few hours while you go about your day.",
-    image: "/pdr-suv-door-repair.webp",
-    neighborhoods: [
-      "Downtown Denver",
-      "Cherry Creek",
-      "Washington Park",
-      "Highlands",
-      "RiNo",
-      "Capitol Hill",
-      "Congress Park",
-      "Park Hill",
-      "Central Park",
-      "Green Valley Ranch",
-      "Sloan's Lake",
-      "Baker",
-      "LoHi",
-      "Five Points",
-    ],
-    highlights: [
-      {
-        title: "Hail Season Ready",
-        desc: "Denver averages 7-9 significant hail events per year. We handle the surge with fast turnaround and full insurance coordination — no waiting weeks for an appointment.",
-      },
-      {
-        title: "Same-Day Service",
-        desc: "For minor dents and door dings in the Denver area, we often offer same-day appointments. Most repairs are completed in 1-3 hours.",
-      },
-      {
-        title: "Mobile Convenience",
-        desc: "We come to your Denver home, office, or any location that's convenient for you. No need to drive across town or sit in a waiting room.",
-      },
-      {
-        title: "Insurance Coordination",
-        desc: "We work directly with State Farm, GEICO, Allstate, Progressive, USAA, and all other major insurance providers to ensure a smooth, hassle-free claims process.",
-      },
-    ],
-    testimonial: {
-      name: "Sarah M.",
-      vehicle: "2023 Audi Q5",
-      text: "After a nasty hail storm hit Cherry Creek, I thought my Q5 was done for. Confidents came to my house the next morning, handled everything with my insurance, and two days later my car looked brand new. Seriously, you can't tell it was ever damaged. Best experience I've ever had with any auto service.",
-    },
-    localFacts: [
-      "Denver experiences an average of 50+ hail days per year along the Front Range",
-      "Over 150,000 hail damage claims are filed annually in Colorado",
-      "PDR saves Denver drivers an average of $1,500-3,000 compared to body shop repairs",
-      "Most insurance companies prefer PDR because it preserves the vehicle's original value",
-    ],
-    hailInfo:
-      "Denver sits in the heart of 'Hail Alley' — a stretch of the Front Range that sees some of the most frequent and severe hail storms in the country. From May through September, afternoon thunderstorms can drop golf ball-sized hail with little warning, leaving vehicles covered in dents. Confidents PDR specializes in comprehensive hail damage restoration, and we ramp up our team during storm season to ensure Denver residents aren't waiting weeks for repairs. We coordinate directly with your insurance company, handle all paperwork, and in most cases, our customers pay $0 out of pocket.",
-  },
   "castle-rock": {
     name: "Castle Rock",
     headline: "Paintless Dent Removal in Castle Rock",
     description:
       "Expert PDR services in Castle Rock and the I-25 corridor. Mobile service to your home or workplace.",
     longDescription:
-      "Castle Rock sits at the crossroads of the Denver metro area and Colorado Springs, and its residents deal with the same Colorado hail storms that affect the entire Front Range. Confidents PDR provides top-tier paintless dent removal to Castle Rock homeowners and businesses. Whether you're near the Outlets at Castle Rock, in the Meadows, or along the I-25 corridor, our mobile service comes to you.",
+      "Castle Rock sits in the heart of Douglas County, and its residents deal with the same Colorado hail storms that affect the entire Front Range. Confidents PDR provides top-tier paintless dent removal to Castle Rock homeowners and businesses. Whether you're near the Outlets at Castle Rock, in the Meadows, or along the I-25 corridor, our mobile service comes to you.",
     additionalInfo:
       "Castle Rock has grown rapidly over the past decade, and with that growth comes more vehicles on the road, more parking lot encounters, and more exposure to Colorado's famously unpredictable weather. The town's elevation at over 6,200 feet puts it squarely in the path of summer thunderstorms that roll east off the mountains, often bringing damaging hail. Confidents PDR has been serving Castle Rock families since our founding, and we understand the unique needs of this community. We offer weekend appointments for busy families, and our mobile setup means we can work right in your driveway while you enjoy your Saturday morning at home. Many of our Castle Rock customers have become repeat clients, referring their friends and neighbors after seeing the quality of our work firsthand.",
     image: "/pdr-mobile-driveway.webp",
@@ -117,7 +59,7 @@ const areaData: Record<
       },
       {
         title: "No Drop-Off Needed",
-        desc: "Skip the drive to a body shop in Denver. We bring our tools and expertise directly to your Castle Rock location — home, office, or wherever your vehicle is parked.",
+        desc: "We bring our tools and expertise directly to your Castle Rock location — home, office, or wherever your vehicle is parked.",
       },
       {
         title: "Weekend Availability",
@@ -137,61 +79,6 @@ const areaData: Record<
     ],
     hailInfo:
       "Castle Rock's position along the Front Range at over 6,200 feet of elevation makes it a prime target for Colorado's notorious summer hail storms. These storms can develop quickly in the afternoon, catching vehicles parked at the Outlets, local schools, and residential driveways. Confidents PDR responds quickly to Castle Rock storm events, often scheduling assessments within 24-48 hours of major storms. We handle the entire insurance process — from initial documentation and filing to adjuster coordination and final approval — so Castle Rock residents can focus on their lives while we restore their vehicles.",
-  },
-  littleton: {
-    name: "Littleton",
-    headline: "Paintless Dent Removal in Littleton",
-    description:
-      "Professional PDR services throughout Littleton and the Southwest Metro area. Factory-quality results.",
-    longDescription:
-      "Littleton and the surrounding Southwest Metro communities deserve dent repair that matches the area's high standards. Confidents PDR provides meticulous paintless dent removal throughout Littleton, Ken Caryl, Columbine, and Chatfield — preserving your vehicle's factory finish and value. Our technicians are experienced with all makes and models, from everyday commuters to luxury vehicles.",
-    additionalInfo:
-      "Littleton residents take pride in their vehicles, and the Southwest Metro area is home to some of the finest cars in the Denver region. Whether you drive a family SUV to shuttle kids between Littleton Public Schools or a luxury sedan for your commute to the tech center, your vehicle deserves expert care when dents happen. Confidents PDR brings that care directly to your doorstep. Our technicians have extensive experience working with the diverse range of vehicles found in Littleton — from aluminum-body Ford F-150s to German luxury brands. We use the latest PDR tools and techniques, and our obsessive attention to detail means we won't sign off on a repair until it meets our exacting standards. Littleton customers consistently tell us that our work is indistinguishable from a factory-fresh panel.",
-    image: "/pdr-glue-pull.webp",
-    neighborhoods: [
-      "Historic Downtown Littleton",
-      "Ken Caryl",
-      "Columbine",
-      "Chatfield",
-      "Grant Ranch",
-      "Highlands Ranch",
-      "Lakewood",
-      "Southwest Plaza area",
-      "Roxborough",
-      "Waterton",
-      "Deer Creek",
-    ],
-    highlights: [
-      {
-        title: "SW Metro Specialists",
-        desc: "Deep knowledge of the Littleton and Southwest Metro area means faster response times and local expertise you can count on.",
-      },
-      {
-        title: "Preserve Your Value",
-        desc: "PDR doesn't show up on CARFAX — critical for Littleton residents who maintain high vehicle values and plan to sell or trade in.",
-      },
-      {
-        title: "All Vehicle Types",
-        desc: "From aluminum-body trucks to luxury European sedans, our Littleton team handles it all with precision and care.",
-      },
-      {
-        title: "Detailed Inspections",
-        desc: "We use specialized lighting and tools to identify every dent, ensuring nothing is missed during our thorough inspection process.",
-      },
-    ],
-    testimonial: {
-      name: "Jennifer K.",
-      vehicle: "2024 BMW X3",
-      text: "I was quoted over $4,000 at a body shop in Littleton for hail damage on my X3. Confidents came to my Ken Caryl home, worked with my insurance, and had the car looking perfect in two days. I paid nothing out of pocket and the repair is invisible. I've already referred three friends.",
-    },
-    localFacts: [
-      "The Southwest Metro area sees significant hail activity during Colorado's storm season from May to September",
-      "Littleton's proximity to the foothills means rapid weather changes that can catch vehicles off guard",
-      "Ken Caryl and Columbine rank among the highest vehicle-value neighborhoods in the SW Metro area",
-      "PDR protects vehicle resale value — crucial in Littleton's competitive used car market",
-    ],
-    hailInfo:
-      "Littleton and the Southwest Metro area are frequently impacted by hail storms that sweep east off the foothills. These storms can be particularly intense due to orographic lift — the process by which moist air is forced upward as it encounters the mountains, creating powerful updrafts that produce large hail stones. Confidents PDR monitors weather patterns throughout the season and pre-positions resources to respond quickly when storms impact the Littleton area. Our goal is to get your vehicle assessed and into our repair schedule as quickly as possible, minimizing the time you spend driving a hail-damaged car.",
   },
   parker: {
     name: "Parker",
@@ -246,63 +133,7 @@ const areaData: Record<
       "PDR keeps Parker families on the road — repairs are completed same-day without the need for a rental car",
     ],
     hailInfo:
-      "Parker's position on the eastern edge of the Denver metro area, combined with its relatively open terrain, makes it particularly vulnerable to severe hail storms. When supercell thunderstorms develop along the Palmer Divide — the elevated terrain between Denver and Colorado Springs — Parker often finds itself directly in the path of large, damaging hail. Confidents PDR has extensive experience with Parker hail events and works closely with local insurance agents who know and trust our work. We prioritize fast response times after major storms, because we know Parker families need their vehicles for daily life.",
-  },
-  aurora: {
-    name: "Aurora",
-    headline: "Paintless Dent Removal in Aurora",
-    description:
-      "Comprehensive PDR services across Aurora. From Southlands to the Anschutz area — we come to you.",
-    longDescription:
-      "Aurora is one of Colorado's largest cities, and its residents need reliable, convenient dent repair they can trust. Confidents PDR serves all of Aurora with mobile paintless dent removal — from the Southlands shopping area to the Anschutz Medical Campus and everywhere in between. Our certified technicians deliver factory-quality results at a fraction of body shop prices.",
-    additionalInfo:
-      "Spanning over 150 square miles, Aurora is a sprawling city with diverse neighborhoods and a wide range of vehicle types. Whether you're a medical professional at the Anschutz campus who discovered a door ding in the parking garage, a family in Saddle Rock dealing with hail damage from last night's storm, or a small business owner in the Gateway area needing fleet vehicles repaired, Confidents PDR has you covered. We've built a strong reputation across Aurora by delivering consistently excellent results and providing the kind of personalized service that large chain body shops simply can't match. Our technicians take the time to assess every dent thoroughly, explain the repair process, and ensure you're completely satisfied before we pack up our tools.",
-    image: "/pdr-sedan-wand-check.webp",
-    neighborhoods: [
-      "Southlands",
-      "Saddle Rock",
-      "Tallyn's Reach",
-      "Quincy Reservoir area",
-      "Murphy Creek",
-      "Anschutz Medical Campus area",
-      "Gateway",
-      "Hampden Heights",
-      "Heather Ridge",
-      "Mission Viejo",
-      "Smoky Hill",
-      "Cherry Creek State Park area",
-    ],
-    highlights: [
-      {
-        title: "City-Wide Coverage",
-        desc: "We serve all of Aurora — north, south, east, and west. One call and we come to your preferred location, anywhere in the city.",
-      },
-      {
-        title: "Fast Turnaround",
-        desc: "Most Aurora repairs are completed same-day. Hail damage typically takes 1-3 days depending on severity, not the weeks a body shop requires.",
-      },
-      {
-        title: "Lifetime Warranty",
-        desc: "Every repair in Aurora comes with our industry-leading lifetime warranty. If you're ever unsatisfied, we make it right — no questions asked.",
-      },
-      {
-        title: "Fleet Services",
-        desc: "Aurora businesses trust us for fleet PDR services. We offer volume pricing and priority scheduling for commercial customers.",
-      },
-    ],
-    testimonial: {
-      name: "Marcus J.",
-      vehicle: "2022 Ram 1500",
-      text: "Got a huge dent from a runaway shopping cart at Southlands. I was quoted $1,800 at a body shop on Havana. Confidents fixed it in under 2 hours right in my driveway for a fraction of the cost. These guys are artists. The dent is completely invisible now.",
-    },
-    localFacts: [
-      "Aurora's expansive geography means more driving, more parking lots, and more opportunities for door dings",
-      "The Anschutz Medical Campus area alone has thousands of vehicles parked daily in large garages",
-      "Aurora experiences the same Front Range hail activity as Denver, with storms frequently tracking east across the city",
-      "PDR is ideal for Aurora's large fleet vehicle population — ambulances, delivery vans, and company cars",
-    ],
-    hailInfo:
-      "Aurora's eastern position in the metro area means it often catches the tail end of Front Range hail storms as they track eastward, but it can also be hit by storms that develop along the Palmer Divide to the south. The city's flat, open terrain offers little natural protection from hail, and vehicles parked in driveways, shopping center lots, and hospital garages are all vulnerable. Confidents PDR provides rapid response to Aurora hail events, with the capacity to handle large volumes of vehicles. We work with all major insurance providers and have established relationships with local Aurora agents who recommend our services to their clients.",
+      "Parker's position on the eastern edge of Douglas County, combined with its relatively open terrain, makes it particularly vulnerable to severe hail storms. When supercell thunderstorms develop along the Palmer Divide, Parker often finds itself directly in the path of large, damaging hail. Confidents PDR has extensive experience with Parker hail events and works closely with local insurance agents who know and trust our work. We prioritize fast response times after major storms, because we know Parker families need their vehicles for daily life.",
   },
   "lone-tree": {
     name: "Lone Tree",
@@ -358,63 +189,111 @@ const areaData: Record<
     hailInfo:
       "While Lone Tree benefits from slightly more developed terrain than the open plains to the east, it is still fully exposed to Colorado's hail season. Storms that track south from Denver or develop along the Palmer Divide can deliver significant hail to the Lone Tree area, impacting vehicles parked at homes, offices, and shopping centers. Confidents PDR responds promptly to Lone Tree hail events and offers concierge-level service that matches the expectations of this community. We provide detailed damage assessments, handle all insurance coordination, and deliver repairs that meet the exacting standards of Lone Tree's luxury vehicle owners.",
   },
-  "colorado-springs": {
-    name: "Colorado Springs",
-    headline: "Paintless Dent Removal in Colorado Springs",
+  "highlands-ranch": {
+    name: "Highlands Ranch",
+    headline: "Paintless Dent Removal in Highlands Ranch",
     description:
-      "Full-service PDR in Colorado Springs and the Pikes Peak region. Hail damage specialists.",
+      "Professional mobile PDR services throughout Highlands Ranch. Same-day service, lifetime warranty.",
     longDescription:
-      "Colorado Springs and the Pikes Peak region experience some of Colorado's most intense hail storms. Confidents PDR provides expert paintless dent removal throughout Colorado Springs — from the Broadmoor to Briargate, and from Manitou Springs to Falcon. Our team handles everything from minor door dings to extensive hail damage, with full insurance coordination included.",
+      "Highlands Ranch is one of Colorado's largest planned communities, and its residents expect top-quality service. Confidents PDR delivers expert paintless dent removal directly to Highlands Ranch homes and offices. Whether your vehicle was caught in a hail storm or picked up a door ding at Town Center, our certified technicians restore it to factory condition without touching the paint.",
     additionalInfo:
-      "Colorado Springs is the second-largest city in Colorado, and its residents face unique challenges when it comes to vehicle dent damage. The city's proximity to Pikes Peak creates localized weather patterns that can produce severe hail — sometimes in areas only a few miles wide. Military families at Fort Carson, Peterson Space Force Base, and Schriever Space Force Base make up a significant portion of the Springs' population, and these families need reliable, affordable vehicle repair that works with military-friendly insurance providers like USAA. Confidents PDR is proud to serve the military community with priority scheduling, competitive pricing, and a deep understanding of the insurance providers and processes that matter most to service members. Beyond the military community, we serve everyone in Colorado Springs — from retirees in the Broadmoor area to young families in Briargate, and from small business owners on Tejon Street to tech workers in the Innovation Corridor.",
-    image: "/pdr-suv-shop-setup.webp",
+      "With over 100,000 residents and some of the busiest shopping centers in Douglas County, Highlands Ranch vehicles are constantly exposed to parking lot dings and Colorado's unpredictable weather. The community's well-maintained neighborhoods and high property values mean residents care about keeping their vehicles in excellent condition. Confidents PDR understands this, which is why we offer flexible scheduling, mobile convenience, and the meticulous attention to detail that Highlands Ranch residents expect. Our technicians work right in your driveway or garage, completing most repairs in just a few hours while you go about your day.",
+    image: "/pdr-suv-door-repair.webp",
     neighborhoods: [
-      "Briargate",
-      "Northgate",
-      "Flying Horse",
-      "The Broadmoor area",
-      "Old Colorado City",
-      "Manitou Springs",
-      "Powers Corridor",
-      "Falcon",
-      "Monument",
-      "Woodland Park",
-      "Black Forest",
-      "Cimarron Hills",
-      "Fort Carson area",
-      "Peterson SFB area",
+      "Town Center",
+      "Westridge",
+      "Eastridge",
+      "Northridge",
+      "Southridge",
+      "BackCountry",
+      "Falcon Hills",
+      "Highlands Ranch Golf Club area",
+      "Dad Clark",
+      "Highlands Heritage Park area",
     ],
     highlights: [
       {
-        title: "Hail Capital Ready",
-        desc: "Colorado Springs is in the heart of hail alley. We're equipped and staffed to handle major storm events quickly, with surge capacity for high-volume periods.",
+        title: "Community Trusted",
+        desc: "Highlands Ranch families trust us for all their PDR needs. Many of our customers come from neighborhood referrals and community recommendations.",
       },
       {
-        title: "Military Friendly",
-        desc: "Proud to serve military families at Fort Carson, Peterson SFB, and Schriever SFB with priority scheduling and military-friendly pricing.",
+        title: "Same-Day Service",
+        desc: "For door dings and minor dents, we often offer same-day appointments. Most repairs are completed in just a few hours.",
       },
       {
-        title: "Full Insurance Support",
-        desc: "We coordinate directly with USAA, Armed Forces Insurance, Geico Military, and all major carriers for Colorado Springs residents.",
+        title: "Mobile Convenience",
+        desc: "We come to your Highlands Ranch home, office, or any convenient location. No need to drive anywhere or sit in a waiting room.",
       },
       {
-        title: "Pikes Peak Region Coverage",
-        desc: "From Monument to Fountain, Manitou Springs to Falcon — we serve the entire Pikes Peak region with mobile PDR services.",
+        title: "Insurance Coordination",
+        desc: "We work directly with all major insurance providers to ensure a smooth, hassle-free claims process for Highlands Ranch residents.",
       },
     ],
     testimonial: {
-      name: "Robert K.",
-      vehicle: "2022 Chevrolet Silverado",
-      text: "Had extensive hail damage after that big storm that hit Briargate — over 100 dents across the hood, roof, and trunk. Confidents worked with USAA and got it all approved. $0 out of pocket. The truck looks showroom-new. As a military family, we really appreciate the priority scheduling they offered.",
+      name: "Lisa P.",
+      vehicle: "2023 Toyota Highlander",
+      text: "After hail hit our neighborhood in Highlands Ranch, I was dreading the repair process. Confidents made it completely painless. They came to my driveway, handled everything with insurance, and my Highlander looks brand new. I've already told all my neighbors about them.",
     },
     localFacts: [
-      "Colorado Springs sits along the Palmer Divide, one of the most hail-prone regions in the United States",
-      "The city's military installations house tens of thousands of vehicles that are exposed to severe weather",
-      "USAA, the primary insurer for military families, consistently approves and recommends PDR for hail damage repairs",
-      "Colorado Springs' growing population means more vehicles on the road and more demand for quality dent repair",
+      "Highlands Ranch is one of the largest planned communities in the United States with over 100,000 residents",
+      "Douglas County consistently ranks among the top Colorado counties for hail damage claims",
+      "The community's busy shopping centers and parking lots are a common source of door dings",
+      "PDR preserves vehicle value — important in Highlands Ranch's active used car market",
     ],
     hailInfo:
-      "Colorado Springs' location at the base of Pikes Peak and along the Palmer Divide makes it one of the most hail-prone cities in America. The Palmer Divide — a ridge of elevated terrain stretching east from the mountains — acts as a trigger for severe thunderstorm development, often producing large hail that impacts the Springs and surrounding communities. Major hail events can produce stones larger than golf balls, causing extensive damage to vehicles across entire neighborhoods. Confidents PDR maintains dedicated resources for the Colorado Springs market, ensuring rapid response when storms hit. We have strong relationships with Colorado Springs insurance agents and adjusters, which helps expedite the claims and repair process for our customers.",
+      "Highlands Ranch sits along the northern edge of Douglas County, where the Palmer Divide's influence creates conditions ripe for severe thunderstorms and hail. Summer storms can develop quickly in the afternoon, leaving vehicles parked at homes, schools, and shopping centers covered in dents. Confidents PDR responds quickly to Highlands Ranch storm events and handles the entire insurance process so residents can focus on their families while we restore their vehicles.",
+  },
+  "castle-pines": {
+    name: "Castle Pines",
+    headline: "Paintless Dent Removal in Castle Pines",
+    description:
+      "Premium PDR services in Castle Pines and Castle Pines Village. Expert care for your vehicle.",
+    longDescription:
+      "Castle Pines and Castle Pines Village are home to some of Douglas County's finest residences and vehicles. Confidents PDR provides the premium paintless dent removal service that Castle Pines residents expect. Our expert technicians deliver factory-quality results on luxury and everyday vehicles alike, all from the convenience of your driveway.",
+    additionalInfo:
+      "The Castle Pines community values quality and attention to detail, and that extends to vehicle care. Whether your luxury SUV picked up a door ding at the Castle Pines Village shopping area or your sedan was caught in a summer hail storm, Confidents PDR has the expertise to make the damage disappear. We specialize in working with the high-end vehicles common in Castle Pines, including aluminum-body SUVs, European luxury brands, and Tesla. Our discreet, professional service setup reflects the standards of the Castle Pines community.",
+    image: "/pdr-luxury-sedan.webp",
+    neighborhoods: [
+      "Castle Pines Village",
+      "Castle Pines North",
+      "The Ridge at Castle Pines",
+      "Lagae Ranch",
+      "Canyonside",
+      "Happy Canyon",
+      "Daniel's Gate",
+      "Surrey Ridge",
+    ],
+    highlights: [
+      {
+        title: "Luxury Vehicle Experts",
+        desc: "Specialized experience with BMW, Mercedes, Audi, Tesla, Porsche, and other premium brands common in Castle Pines.",
+      },
+      {
+        title: "Discreet Service",
+        desc: "We set up professionally in your driveway or garage. Our clean, organized process reflects the standards of the Castle Pines community.",
+      },
+      {
+        title: "Value Protection",
+        desc: "PDR preserves factory paint and doesn't appear on CARFAX — essential for Castle Pines' high-value vehicles.",
+      },
+      {
+        title: "Lifetime Warranty",
+        desc: "Every repair comes with our lifetime warranty and 100% satisfaction guarantee. We stand behind our work without reservation.",
+      },
+    ],
+    testimonial: {
+      name: "David R.",
+      vehicle: "2024 Audi Q7",
+      text: "Found a nasty door ding on my Q7 after parking at the Village. Confidents came out the next morning, and within an hour the dent was completely gone. You cannot tell it was ever there. Outstanding work and very professional service.",
+    },
+    localFacts: [
+      "Castle Pines is one of Douglas County's most affluent communities with a high concentration of luxury vehicles",
+      "The area's elevation and proximity to the Palmer Divide make it susceptible to summer hail storms",
+      "PDR is the repair method of choice for luxury dealerships — the same quality we bring to Castle Pines residents",
+      "Preserving factory paint is especially important for luxury vehicles, where color-match repainting can cost thousands",
+    ],
+    hailInfo:
+      "Castle Pines sits in the heart of Douglas County, where the Palmer Divide's weather influence creates ideal conditions for severe summer thunderstorms. Hail events can strike with little warning, leaving vehicles parked in driveways and community lots with dozens of dents. Confidents PDR provides rapid response to Castle Pines storm events, offering the premium, concierge-level service that this community expects. We handle all insurance coordination and deliver repairs that meet the exacting standards of Castle Pines residents.",
   },
 };
 
@@ -683,7 +562,7 @@ export default async function AreaPage({
                         <div className="text-gray-400 text-xs mt-1">Out of Pocket</div>
                       </div>
                       <div>
-                        <div className="text-2xl font-black text-brand-orange">1-3</div>
+                        <div className="text-2xl font-black text-brand-orange">1-4</div>
                         <div className="text-gray-400 text-xs mt-1">Days to Repair</div>
                       </div>
                       <div>
@@ -795,13 +674,13 @@ export default async function AreaPage({
                 Get Your Free Estimate
               </Link>
               <a
-                href="tel:+17205551234"
+                href="tel:+13033046022"
                 className="border border-white/20 hover:border-brand-orange/50 hover:bg-white/5 text-white font-bold text-lg px-10 py-4 rounded-xl transition-all flex items-center justify-center gap-2"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                (720) 555-1234
+                (303) 304-6022
               </a>
             </div>
           </ScrollReveal>
